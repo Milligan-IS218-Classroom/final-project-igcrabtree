@@ -1,0 +1,165 @@
+.resume {
+    display: grid;
+    height: 1620px;
+    width: 1300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows   : 1fr 1fr 1fr 1fr;
+    box-shadow           : 0 5px 9px 0 #2e0642;
+    grid-template-areas:
+        "name           name       photo"
+        "work           work       about"
+        "work           work       education"
+        "activities     references skills";
+    grid-gap: 5px;
+}
+
+.grid-area {
+    padding: 1em 1em 1em 1em;
+    border: 1px black solid;
+}
+
+.name {
+    grid-area: name;
+}
+
+.photo {
+    grid-area: photo;
+}
+
+.about {
+    grid-area: about;
+}
+
+.references {
+    grid-area: references;
+}
+
+.work {
+    grid-area: work;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.education {
+    grid-area: education;
+}
+
+.activities {
+    grid-area: activities;
+}
+
+.circle {
+    border       : 1px solid black;
+    height       : 375px;
+    width        : 375px;
+    border-radius: 50%;
+    background-image: url('Picture.jpg');
+    background-size: 100% 100%;
+}
+
+/* align cv to center of page */
+
+.wrapper {
+    padding       : 0;
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+}
+
+.headings{
+    text-align: left;
+    font-size: 1.5em;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#nameHeading {
+    text-align: center;
+    font-size: 4.5em;
+    padding: 75px;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.position-held {
+    color: #7a244d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 5px 0px 5px 0px;
+}
+
+hr {
+    background-color: #d3b129;
+    border: none;
+    height: 1px;
+}
+
+.location{
+    text-align: left;
+}
+
+.dates-held {
+    text-align: right;
+}
+
+.location, .dates-held, .company {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.eduNormal {
+    font-weight: normal;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bach, #school, #minor, #conc, #gpa, #honors {
+    color: #7a244d;
+    font-weight: bold;
+    font-size: large;
+}
+
+#honorsList {
+    padding-top: 0px;
+}
+
+td {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.activities h3 {
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.act {
+    font-weight: bold;
+    color: #7a244d;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.refName {
+    color: #7a244d;
+    font-weight: bold;
+    font-size: large;
+    margin: 0px;
+}
+
+.references h4 {
+    font-weight: normal;
+    font-size: medium;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skills {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: medium;
+}

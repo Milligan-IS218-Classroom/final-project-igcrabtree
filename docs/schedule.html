@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schedule</title>
+        <link href="nav-bar.css" rel="stylesheet" />
+        <link href="schedule_layout.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div class="topnav">
+                <a href="index.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a class="active" href="schedule.html">Schedule</a>
+            </div>
+        </header>
+        <main>
+            <h1>Milligan University</h1>
+            <h3>Sophomore Year</h3>
+            <hr>
+            <table>
+                <caption>Class Schedule</caption>
+                <colgroup>
+                    <col id="hours" />
+                    <col id="days" span="5" />
+                 </colgroup>
+                 <thead>
+                    <tr>
+                       <th>Hour</th>
+                       <th>Mon</th>
+                       <th>Tue</th>
+                       <th>Wed</th> 
+                       <th>Thu</th>
+                       <th>Fri</th>           
+                    </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <th>10:00 A.M.</th>
+                         <td class="class webDev">Web Development</td>
+                         <td class="open"></td>
+                         <td class="class webDev">Web Development</td>
+                         <td class="open"></td>
+                         <td class="class webDev">Web Development</td>
+                     </tr>
+                     <tr>
+                         <th>11:00 A.M.</th>
+                         <td class="open" rowspan="3" colspan="5"></td>
+                     </tr>
+                     <tr>
+                         <th>12:00 P.M</th>
+                     </tr>
+                     <tr>
+                         <th>1:00 P.M.</th>
+                     </tr>
+                     <tr>
+                         <th>2:00 P.M</th>
+                         <td class="class aOfA">Analysis of Algorithms</td>
+                         <td class="class dataStruct" rowspan="2">Data Structures</td>
+                         <td class="class aOfA">Analysis of Algorithms</td>
+                         <td class="class dataStruct" rowspan="2">Data Structures</td>
+                         <td class="class aOfA">Analysis of Algorithms</td>
+                     </tr>
+                     <tr>
+                         <th>3:00 P.M</th>
+                         <td class="open"></td>
+                         <td class="open"></td>
+                         <td class="open"></td>
+                     </tr>
+                 </tbody>
+                 <tfoot>
+                    <tr>
+                       <td colspan="6">Spring Semester, 2021</td>
+                    </tr>
+                 </tfoot> 
+            </table>
+            <hr>
+        </main>
+    </body>
+</html>
