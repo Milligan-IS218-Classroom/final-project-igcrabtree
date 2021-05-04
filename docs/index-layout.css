@@ -1,0 +1,73 @@
+.aboutPage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-areas: 
+        "name       name        name"
+        "photoOne   photoTwo    photoThree"
+        "about      about       about";
+}
+
+.name {
+    grid-area: name;
+}
+
+.photoOne{
+    grid-area: photoOne;
+}
+
+.photoTwo {
+    grid-area: photoTwo;
+}
+
+.photoThree{
+    grid-area: photoThree;
+}
+
+.about{
+    grid-area: about;
+}
+
+.basketball {
+    border       : 1px solid black;
+    height       : 100%;
+    width        : 100%;
+    background-image: url('basketball.jpg');
+    background-size: 100% 100%;
+}
+
+.head {
+    border       : 1px solid black;
+    height       : 100%;
+    width        : 100%;
+    background-image: url('head.jpg');
+    background-size: 100% 120%;
+}
+
+.work {
+    border       : 1px solid black;
+    height       : 100%;
+    width        : 100%;
+    background-image: url('work.jpg');
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #7A244D;
+    font-size: 4.5em;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+    padding: 1em 1em 1em 1em;
+}
+
+hr {
+    background-color: #d3b129;
+    border: none;
+    height: 1px;
+}
